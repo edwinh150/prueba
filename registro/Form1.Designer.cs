@@ -36,7 +36,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textProduccion = new System.Windows.Forms.TextBox();
+            this.ProduccionTextBox = new System.Windows.Forms.TextBox();
             this.comboPais = new System.Windows.Forms.ComboBox();
             this.comboGenero = new System.Windows.Forms.ComboBox();
             this.richTextDescripcion = new System.Windows.Forms.RichTextBox();
@@ -117,12 +117,12 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Descripcion";
             // 
-            // textProduccion
+            // ProduccionTextBox
             // 
-            this.textProduccion.Location = new System.Drawing.Point(102, 138);
-            this.textProduccion.Name = "textProduccion";
-            this.textProduccion.Size = new System.Drawing.Size(200, 20);
-            this.textProduccion.TabIndex = 8;
+            this.ProduccionTextBox.Location = new System.Drawing.Point(102, 138);
+            this.ProduccionTextBox.Name = "ProduccionTextBox";
+            this.ProduccionTextBox.Size = new System.Drawing.Size(200, 20);
+            this.ProduccionTextBox.TabIndex = 8;
             // 
             // comboPais
             // 
@@ -430,7 +430,7 @@
             this.Controls.Add(this.richTextDescripcion);
             this.Controls.Add(this.comboGenero);
             this.Controls.Add(this.comboPais);
-            this.Controls.Add(this.textProduccion);
+            this.Controls.Add(this.ProduccionTextBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -456,7 +456,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textProduccion;
+        private System.Windows.Forms.TextBox ProduccionTextBox;
         private System.Windows.Forms.ComboBox comboPais;
         private System.Windows.Forms.ComboBox comboGenero;
         private System.Windows.Forms.RichTextBox richTextDescripcion;
