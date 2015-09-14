@@ -41,7 +41,7 @@
             this.comboGenero = new System.Windows.Forms.ComboBox();
             this.richTextDescripcion = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textDirector = new System.Windows.Forms.TextBox();
+            this.DirectorTextBox = new System.Windows.Forms.TextBox();
             this.buttonLimpiar = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
@@ -394,12 +394,12 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Director";
             // 
-            // textDirector
+            // DirectorTextBox
             // 
-            this.textDirector.Location = new System.Drawing.Point(102, 91);
-            this.textDirector.Name = "textDirector";
-            this.textDirector.Size = new System.Drawing.Size(200, 20);
-            this.textDirector.TabIndex = 14;
+            this.DirectorTextBox.Location = new System.Drawing.Point(102, 91);
+            this.DirectorTextBox.Name = "DirectorTextBox";
+            this.DirectorTextBox.Size = new System.Drawing.Size(200, 20);
+            this.DirectorTextBox.TabIndex = 14;
             // 
             // buttonLimpiar
             // 
@@ -425,7 +425,7 @@
             this.ClientSize = new System.Drawing.Size(372, 481);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.buttonLimpiar);
-            this.Controls.Add(this.textDirector);
+            this.Controls.Add(this.DirectorTextBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.richTextDescripcion);
             this.Controls.Add(this.comboGenero);
@@ -461,7 +461,7 @@
         private System.Windows.Forms.ComboBox comboGenero;
         private System.Windows.Forms.RichTextBox richTextDescripcion;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textDirector;
+        private System.Windows.Forms.TextBox DirectorTextBox;
         private System.Windows.Forms.Button buttonLimpiar;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
